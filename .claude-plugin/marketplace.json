@@ -1,0 +1,13 @@
+{
+  "name": "srdjan-video-tools",
+  "owner": {
+    "name": "Srdjan Sipka"
+  },
+  "plugins": [
+    {
+      "name": "video-maker",
+      "source": "./plugins/video-maker",
+      "description": "Multi-agent short-form video production (CEO, investigator, screenwriter, editor)."
+    }
+  ]
+}

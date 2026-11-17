@@ -1,0 +1,15 @@
+{
+  "name": "video-maker",
+  "displayName": "Video Maker",
+  "version": "0.1.0",
+  "description": "Multi-agent short-form video production: a CEO agent delegates research, scripting and editing to specialist subagents.",
+  "author": {
+    "name": "Srdjan Sipka"
+  },
+  "keywords": ["video", "tiktok", "instagram", "short-form", "multi-agent"],
+  "agents": [
+    "./agents/investigator/AGENT.md",
+    "./agents/screenwriter/AGENT.md",
+    "./agents/editor/AGENT.md"
+  ]
+}

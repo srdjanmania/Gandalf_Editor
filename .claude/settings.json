@@ -1,0 +1,13 @@
+{
+  "extraKnownMarketplaces": {
+    "srdjan-video-tools": {
+      "source": {
+        "source": "directory",
+        "path": "./"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "video-maker@srdjan-video-tools": true
+  }
+}
