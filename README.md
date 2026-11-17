@@ -8,7 +8,6 @@ A generic short-form video team. The plugin holds no business details: the CEO g
 - `plugins/gandalf-editor/skills/ceo/SKILL.md`: CEO skill. Loads automatically when you ask for a video (e.g. "let's create a new video") and coordinates the agents below
 - `plugins/gandalf-editor/agents/<name>/AGENT.md`: one folder per specialist (plus any supporting files): `intake`, `investigator`, `analyst`, `screenwriter`, `editor`, `qa-controller`, `copywriter`
 - New agents must be added to the `agents` list in `plugins/gandalf-editor/.claude-plugin/plugin.json`. Only listed files load, so other `.md` files in agent folders don't become agents.
-- `project-context/porto-motors.md`: Porto Motors brand bible and process, to paste into the Claude project's instructions. Not part of the plugin.
 
 ## Usage
 
