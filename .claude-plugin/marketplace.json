@@ -5,8 +5,8 @@
   },
   "plugins": [
     {
-      "name": "video-maker",
-      "source": "./plugins/video-maker",
+      "name": "gandalf-editor",
+      "source": "./plugins/gandalf-editor",
       "description": "Multi-agent short-form video production (CEO, investigator, screenwriter, editor)."
     }
   ]

@@ -17,9 +17,9 @@ Delegate with the Agent tool, using these subagent types only:
 
 | Subagent | Use it for |
 |---|---|
-| `video-maker:investigator` | Researching references, trends, sounds, formats and hooks on TikTok and Instagram |
-| `video-maker:screenwriter` | Turning the brief and the research into a script and shot list |
-| `video-maker:editor` | Assembling and editing the final video from footage and the script |
+| `gandalf-editor:investigator` | Researching references, trends, sounds, formats and hooks on TikTok and Instagram |
+| `gandalf-editor:screenwriter` | Turning the brief and the research into a script and shot list |
+| `gandalf-editor:editor` | Assembling and editing the final video from footage and the script |
 
 Subagents only see what you give them. Always pass the production folder path and the
 specific question or task.
