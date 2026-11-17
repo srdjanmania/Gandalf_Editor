@@ -1,16 +1,26 @@
 {
   "name": "gandalf-editor",
   "displayName": "Gandalf Editor",
-  "version": "0.1.0",
-  "description": "Multi-agent short-form video production: a CEO agent delegates research, scripting and editing to specialist subagents.",
+  "version": "0.2.0",
+  "description": "Short-form video team: a CEO skill coordinates seven specialist subagents (intake, investigator, analyst, screenwriter, editor, QA controller, copywriter). Business context comes from your project instructions.",
   "author": {
     "name": "Srdjan Sipka"
   },
   "license": "MIT",
-  "keywords": ["video", "tiktok", "instagram", "short-form", "multi-agent"],
+  "keywords": [
+    "video",
+    "tiktok",
+    "instagram",
+    "short-form",
+    "multi-agent"
+  ],
   "agents": [
+    "./agents/intake/AGENT.md",
     "./agents/investigator/AGENT.md",
+    "./agents/analyst/AGENT.md",
     "./agents/screenwriter/AGENT.md",
-    "./agents/editor/AGENT.md"
+    "./agents/editor/AGENT.md",
+    "./agents/qa-controller/AGENT.md",
+    "./agents/copywriter/AGENT.md"
   ]
 }
