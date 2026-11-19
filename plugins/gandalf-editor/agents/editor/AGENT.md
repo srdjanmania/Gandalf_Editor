@@ -95,6 +95,12 @@ high bitrate if the brief says so), original resolution, fps and orientation.
      maker's technical LUT for that exact profile (e.g. Sony S-Log3/S-Gamut3.Cine → Rec709)
      or the equivalent maths. If the right technical transform isn't available, report it;
      don't substitute a different profile's LUT.
+   - Default technical LUT for Sony S-Log3 / S-Gamut3.Cine:
+     `/Users/sile/02_EDIT_STUFF/02_Video/LUTs/From_SLog3_S-gamut3.Cine_To_REC.709.cube`
+     (apply at full strength, e.g. ffmpeg `lut3d`). Use it only when the metadata says
+     S-Log3 + S-Gamut3.Cine. On the first clips, check that colours look right (skin,
+     foliage, paint not shifted or oversaturated); if they don't, report it.
+     For other profiles (S-Log2, S-Gamut3, other cameras) find the matching transform.
    - A creative LUT is never used as the conversion. Conversion is a separate, technical step.
 
 4. **Image correction**
