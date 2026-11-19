@@ -1,7 +1,7 @@
 {
   "name": "gandalf-editor",
   "displayName": "Gandalf Editor",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Short-form video team: a CEO skill coordinates seven specialist subagents (intake, investigator, analyst, screenwriter, editor, QA controller, copywriter). Business context comes from your project instructions.",
   "author": {
     "name": "Srdjan Sipka"
